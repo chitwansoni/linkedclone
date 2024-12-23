@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.png" />
+    <title>Linkdin Clone</title>
+    <link rel="stylesheet" href="linkedin.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"><img src="images/logo.png" /></a>
+        <div class="search-box">
+          <img src="images/search.png" />
+          <input type="text" placeholder="Search" />
+        </div>
+      </div>
+      <div class="navbar-center">
+        <ul>
+          <li>
+            <a href="#" class="active-link"
+              ><img src="images/home.png" /><span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/network.png" /><span>My Network</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><img src="images/jobs.png" /><span>Jobs</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/message.png" /><span>Messaging</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/notification.png" /><span
+                >Notifications</span
+              ></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-right">
+        <div class="online">
+          <img
+            src="images/my profile.jpg"
+            class="nav-profile-img"
+            onclick="toggleMenu()"
+          />
+        </div>
+      </div>
+
+      <div class="profile-menu-wrap" id="profileMenu">
+        <div class="profile-menu">
+          <div class="user-info">
+            <img src="images/my profile.jpg" />
+            <div>
+              <h3>Chitwan Soni</h3>
+              <a href="profile.html">See your profile</a>
+            </div>
+          </div>
+          <hr />
+          <a href="#" class="profile-menu-link">
+            <img src="images/feedback.png" />
+            <p>Give Feedback</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/setting.png" />
+            <p>Settings & Privacy</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/help.png" />
+            <p>Help & Support</p>
+            <span>></span>
+          </a>
+          <a href="#" class="profile-menu-link">
+            <img src="images/display.png" />
+            <p>Display & Accessibility</p>
+            <span>></span>
+            <a href="#" class="profile-menu-link">
+              <img src="images/logout.png" />
+              <p>Logout</p>
+              <span>></span>
+            </a>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!--navbar close-->
+
+    <div class="container">
+      <div class="profile-main">
+        <div class="profile-container">
+          <img src="images/banner.jpg" width="100%" />
+          <div class="profile-container-inner">
+            <img src="images/my profile.jpg" class="profile-pic" />
+            <h1>Chitwan Soni</h1>
+            <b>Frontend developer | JavaScript | HTML | CSS</b>
+            <p>Rajasthan, India &middot; <a href="#">Contact info</a></p>
+            <div class="mutual-connection">
+              <img src="images/user-2.png" />
+              <span>1 mutual connection : Orlando Diggs</span>
+            </div>
+            <div class="profile-btn">
+              <a href="#" class="primary-btn"
+                ><img src="images/connect.png" />Connect</a
+              >
+              <a href="#"><img src="images/chat.png" />Message</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-description">
+          <h2>About</h2>
+          <p>
+            👋 Greetings! I'm Chitwan Soni, a passionate BCA undergraduate at
+            Sobhasaria Group of Instutions,Sikar,Rajasthan. 🎓💻 💡 As an
+            aspiring Front-End Developer, I'm dedicated to building modern and
+            dynamic web applications. I believe in a hands-on approach to
+            learning and continuously enhance my skills in my profile.Frontend
+            project-based practice. 🚀📚
+          </p>
+          <a href="#" class="see-more-link">See more...</a>
+        </div>
+        <div class="profile-description">
+          <h2>Experience</h2>
+          <div class="profile-desc-row">
+            <img src="images/codsoft.jpg" />
+            <div>
+              <h3>Internship Front-End Developer</h3>
+              <b>Codsoft &middot; Full-time</b>
+              <b>june 2024 - Present &middot; 1 Month</b>
+              <p>
+                I did an Internship at codsoft in front-end development. With
+                expertise in HTML, CSS, and JavaScript, I create visually
+                appealing and responsive websites that enhance user experiences.
+                Let's collaborate to bring your web projects to life!
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/skillected logo.png" />
+            <div>
+              <h3>Full Stack Developer Course</h3>
+              <b>skillected &middot; 6-months</b>
+              <b>September 2024 - February 2021| &middot; 6 months</b>
+              <p>
+                In a Full Stack Develope Course at , I work on diverse projects
+                encompassing both front-end and back-end development. Leveraging
+                my skills ijmy profile.jpgarious technologies and tools, I
+                contribute to building innovative software solutions that
+                empower teams to collaborate efficiently and achieve their
+                goals.
+              </p>
+              <hr />
+            </div>
+          </div>
+
+          <hr />
+          <a href="#" class="experience-link"
+            >Show all & experiences <img src="images/right-arrow.png"
+          /></a>
+        </div>
+
+        <div class="profile-description">
+          <h2>Education</h2>
+          <div class="profile-desc-row">
+            <img src="images/sobhasaria.jpg" />
+            <div>
+              <h3>Sobhasaria Group of Instutions,Sikar,Rajasthan</h3>
+              <b>BCA, Computer Applications </b>
+              <b>2021 - 2025</b>
+              <hr />
+            </div>
+          </div>
+
+          <div class="profile-desc-row">
+            <img src="images/clc.jpg" />
+            <div>
+              <h3>CLC</h3>
+              <b>2018 - 2020</b>
+              <hr />
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-description">
+          <h2>Skills</h2>
+          <a href="#" class="skills-btn">Web Development</a>
+          <a href="#" class="skills-btn">HTML</a>
+          <a href="#" class="skills-btn">CSS</a>
+          <a href="#" class="skills-btn">JavaScript</a>
+          <a href="#" class="skills-btn">ReactJS</a>
+          <a href="#" class="skills-btn">Communication</a>
+          <a href="#" class="skills-btn">Planning</a>
+          <a href="#" class="skills-btn">Coding</a>
+        </div>
+        <div class="profile-description">
+          <h2>Languages</h2>
+          <a href="#" class="language-btn">English</a>
+          <a href="#" class="language-btn">Hindi</a>
+        </div>
+      </div>
+
+      <div class="profile-sidebar">
+        <div class="sidebar-ad">
+          <small>Ad &middot; &middot; &middot;</small>
+          <p>Master all topics of Web Development</p>
+          <div>
+            <img src="images/my profile.jpg" />
+            <img src="images/web logo.png" />
+          </div>
+          <b>Technical Enthusiast</b>
+          <a href="#" class="ad-link">Learn More</a>
+        </div>
+
+        <div class="sidebar-people">
+          <h3>People you may know</h3>
+          <div class="sidebar-people-row">
+            <img src="images/user-3.png" />
+            <div>
+              <h2>Samuel Tony</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-4.png" />
+            <div>
+              <h2>Benjamin Leo</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-5.png" />
+            <div>
+              <h2>Steave Greg</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+
+          <div class="sidebar-people-row">
+            <img src="images/user-2.png" />
+            <div>
+              <h2>Martin Lewis</h2>
+              <p>Head of marketing at Alibaba</p>
+              <a href="#">Connect</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-footer">
+      <div class="sidebar-useful-links">
+        <a href="#">About</a>
+        <a href="#">Accessibility</a>
+        <a href="#">Help Center</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Advertising</a>
+        <a href="#">Get the App</a>
+        <a href="#">More</a>
+
+        <div class="copyright-msg">
+          <img src="images/logo.png" />
+          <p>LINKEDIN OJ &#169; 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="linkedin.js"></script>
+  </body>
+</html>
